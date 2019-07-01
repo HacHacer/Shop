@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    transition:transform 2s;
+}
+
+.wrap{
+    width:450px;
+    height: 450px;
+    margin:50px auto;
+    text-align: center;
+    background-image: url("images/disc-bg.gif");
+    position: relative;
+}
+.zhh{
+    width:32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -139px;
+    z-index: 1;
+}
+.zhen{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -46px;
+    margin-top: -44px;
+    z-index: 2;
+}
+.wrap>img{
+    margin-top: 48px;
+}
+a{
+    width:100px;
+    display: block;
+    overflow: hidden;
+}
+@keyframes rolling {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(1500deg);
+    }
+}

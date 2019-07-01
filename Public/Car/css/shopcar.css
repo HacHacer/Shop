@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: #7f7f7f;
+    font-size:14px;
+}
+.container{
+    width:990px;
+    margin:0 auto;
+}
+.all{
+    width:990px;
+    height:50px;
+    background: #e5e5e5;
+    position: fixed;
+    bottom: 0;
+    margin:0 auto;
+}
+.left{
+    float: left;
+    color: #7f7f7f;
+    height: 50px;
+    line-height: 50px;
+    font-size:14px;
+}
+.right{
+    float: right;
+    color: #ff4400;
+}
+.ee a{
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width:24px;
+    height: 24px;
+    background-color: white;
+    color: #7f7f7f;
+    font-size: 20px;
+}
+input{
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.btn1{
+    height: 50px;
+    line-height: 50px;
+    background: #B0B0B0;
+    color: #fff;
+    border-left: 1px solid #e7e7e7;
+    width: 119px;
+    cursor: not-allowed;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.font30{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.good-list{
+    margin-bottom: 80px;
+}
+.head{
+    width:990px;
+    height:50px;
+    color: #3c3c3c;
+    background-color: #fefefe;
+    border-bottom: 1px solid #e9e9e9;
+}
+.head>div{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.allco{
+    width:80px;
+}
+.name{
+    width:345px;
+    padding-left:101px;
+}
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+input[type=text]{
+    width:60px;
+    height:20px;
+}
+.price,.mount{
+    width:120px;
+    padding-left: 10px;
+}
+.gen{
+    width:105px;
+}
+.do{
+    width:84px;
+    padding-left: 15px;
+}
+.god-wrap{
+    width:990px;
+    height:130px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.th{
+    width: 100%;
+    height:100%;
+    list-style: none;
+    line-height: 130px;
+    color:#7f7f7f;
+}
+.th li{
+    float: left;
+    height:130px;
+}
+.aa{
+    width:90px;
+}
+.bb{
+    width:440px;
+}
+.bb div{
+    float: left;
+}
+.img{
+    width:80px;
+    height:80px;
+    margin-top:25px;
+}
+em{
+    font-style: normal;
+    color:#ff4400;
+}
+.na{
+    width:320px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    text-indent: 10px;
+}
+.cc{
+    width:110px;
+}
+.ee{
+    width:140px;
+}
+.ff{
+    width: 130px;
+    color:#ff4400;
+}
+.dd{
+    padding-left: 10px;
+    cursor: pointer;
+}
